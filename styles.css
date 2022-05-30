@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --text-input-field: #ffe2ed;
+      --very-light-pink: #f7b3d8;
+      --hospital-pink: #be2d59;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+    scroll-behavior: smooth;
+  }
+  body {  
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Amatic SC', cursive;
+  font-family: 'Quicksand', sans-serif;
+  font-family: 'Amatic SC', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Quicksand', sans-serif;
+  }
+  .container0 {
+    width:100%;
+    height: 40px;
+    margin: 0;
+    background-color: #000000;
+    color: white;
+
+}
+.container0 h1 {
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+text-align: center;
+
+}
+header {
+    height: 60vh;
+    background-image: url(./fotodeinicio.jpg);    
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+}
+.head {
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.titulo {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 120px;
+  margin-bottom: 50px;
+  color: rgb(255, 255, 255);
+    text-shadow: 0px 30px 10px rgb(0, 0, 0);  
+}
+.titulo1 {
+  font-size: 50px;
+margin-bottom: 50px;
+text-shadow: 0px 0px 10px rgb(255, 255, 255);  
+
+}
+.button-dark {
+  background-color: rgb(255, 255, 255);
+border-radius: 15px;
+border: none;
+color: rgb(0, 0, 0);
+width: 250px;
+cursor: pointer;
+font-size: 20px;
+font-weight: bold;
+height: 50px;
+margin-bottom: 20px;
+box-shadow: 1px 3px 1px; color: rgb(0, 0, 0);
+transition: all 0.3s ease-in-out;
+top: 150px;
+}
+
+.container1 {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  box-shadow: 2px 5px 10px; color: rgb(119, 94, 94);
+}
+.container1 p:nth-child(2) {
+position: absolute;
+font-size: 60px;
+font-weight:  bold;
+top: 20%;
+left: 50%;
+text-align: center;
+transform: translate(-50%, -50%);
+color: aliceblue;
+font-family: 'Cinzel', serif;
+}
+.container1 p {
+  width: 100%;
+  position: absolute;
+  font-size: 25px;
+  font-weight: bold;
+  top: 80%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  background: rgba(0, 0, 0, 0.438);
+  border-radius:5px;
+  background-size: 10px 20px;
+  }
+  .container1 img{
+    position: relative;
+    width: 100%;    ;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+
+}
+
+.button-sub {
+  background-color: rgba(0, 0, 0, 0.726);
+  border-radius: 4px;
+  border: none;
+  color: rgb(243, 243, 243);
+  width: 100%;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+ margin-top: 72px;
+  }
+  
+
+.menuinicio {
+  top: 40px;
+  right: 40px;
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgb(0, 0, 0 .5);
+}
+
+.menu-navegacion {
+  position: fixed;
+  top : 0;
+  right: 0;
+  width: 45vh;
+  height: 100%;
+  background: linear-gradient(to bottom, rgb(50, 50, 50) 0%, rgb(63, 63, 63) 40%, rgb(28, 28, 28) 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background-blend-mode: multiply;  
+    display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0 0 6px rgba(0,0, 0, .10);
+  cursor: pointer;
+ transition: transform .3s ease-in-out;  
+  transform: translate(110%);
+  border : 1px solid color white;   
+  
+}
+.spread {
+  transform: translate(0);
+}
+.menu-navegacion a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Cinzel', serif;
+  font-size: 25px;
+}
+.subtitulo {
+  text-align: center;
+  font-weight: 300;
+  color: #000000;
+  margin-bottom: 40px;
+  font-size: 50px;
+  
+}
+.contenedor-servicio {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.contenedor-servicio img {
+  width: 45%;
+}
+
+.button {
+  display: inline-block;
+text-align: center;
+align-items: flex-start;
+margin-bottom: 15px;
+}
+
+.cover {
+  display: grid;
+  width: 100%;
+    height: 200px;
+    background-image: url(https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFrZSUyMHVwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+background-size: cover;
+    background-position: center;
+background-color: rgba(0, 0, 0, 0,7);
+background-blend-mode: darken;
+color: rgb(153, 87, 0);
+margin-top: 0;
+padding-top: 0;
+margin-top: 50px;
+}
+
+.cover2 {
+  display: grid;
+    height: 200px;
+    background-image: url(./IMG/rsz_christin-hume-0mof-fe0w0a-unsplash.jpg);    
+background-size: cover;
+    background-position: center;
+background-color: rgba(0, 0, 0, 0,7);
+background-blend-mode: darken;
+color: rgb(153, 87, 0);
+margin-top: 0;
+padding-top: 0;
+}
+.cover3 {
+  display: grid;
+    height: 200px;
+    background-image: url(https://images.unsplash.com/photo-1594035910663-369b72b7abe2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);    
+background-size: cover;
+    background-position: cENTER;
+background-color: rgba(0, 0, 0, 0,7);
+background-blend-mode: darken;
+color: rgb(153, 87, 0);
+margin-top: 0;
+padding-top: 0;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 240px);
+  gap: 50px;
+  place-content: center;
+margin-top: 50px;  
+margin-bottom: 50px;
+}
+
+.cards-container img:hover {
+  border: 3px solid var(--hospital-pink);
+}
+.product-cards {
+  width: 240px;
+}
+.product-cards img {
+  width: 240px;
+  height: 240px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-info figure img {
+  width: 50px;
+  height: 55px;
+}
+.profuct-info figure {
+  margin: 0;
+}
+.product-info div p:nth-child(1) {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-family: 'Amatic SC';
+  color: black;
+
+}
+.product-info div p:nth-child(2) {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(51, 51, 51);
+  font-family: 'Amatic SC';
+
+}
+  .product-card {
+  width: 250px;
+}
+.product-cards img {
+  width: 250px;
+  height: 250px;
+}
+
+
+footer {
+  background-image: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(48, 67, 82) 100%);
+       padding-bottom: 0.1px ;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.contact-us {
+    width: 50%;
+    color: white;
+}
+.brand {
+  font-family: 'Kaushan Script', cursive;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 77px;
+    margin-left: 50px;
+}
+.brand+p {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+    margin-left: 150px;
+}
+.social-media {
+    width: 50%;
+display: flex;
+justify-content: center;
+}
+.social-media-icons {
+    display: inline-block;
+    width: 60px;
+    margin-left: 20px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+.social-media-icons:hover {
+    background: #fff;
+    color: #000000;
+}
+.social-media i {
+    font-size: 30px;
+    line-height: 60px;
+}
+.line{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 3px;
+    background: white;
+    margin-bottom: 60px;
+}
+.imagen-light {
+  position: fixed;
+  background: rgba(240, 143, 143, 0.219);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(100%);
+  transition: transform .2s ease-in-out;
+}
+.show {
+  transform: translate(0);
+}
+.agregar-imagen {
+  object-fit: cover;
+  width: 40%;
+  border-radius:5px;
+  transform: scale(0);
+  transition: transform .3s 2s;
+}
+.showImage {
+  transform: scale(1);
+  width: 30%;
+}
+.close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 45px;
+  cursor: pointer;
+}
+@media screen and(max-width:800px){
+
+}
+  
